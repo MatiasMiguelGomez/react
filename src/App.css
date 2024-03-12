@@ -1,0 +1,47 @@
+.header{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.header h1 {
+  color: #512da8;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.listas{
+  display: flex;
+  list-style: none;
+}
+
+.listas li{
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.button{
+  background-color: #512da8;
+  height: 40px;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.button:hover{
+  background-color: #8153e4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.itemListContainer{
+  min-height: 600px;
+  min-width: 80%;
+  background-color: #512da0;
+  width: 100%;
+  padding: 20px 20px;
+}
+
+.blanco{
+  color: white;
+}
